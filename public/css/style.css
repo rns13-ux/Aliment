@@ -9,7 +9,7 @@
 }
 #logo{
 
-    height: 39px;
+    height: 60px;
     border-radius: 100%;
 }
 
@@ -27,9 +27,32 @@ body{
     display: flex;
     flex-direction: column;
     color: #5f5f5f;
-    margin: 35px 0px 5px 0px;
-    padding: 5px;
+    padding: 10% 0px 10% 0px;
     align-items: center;
     justify-content: center;
     background-color: #FDF2F6;
+}
+
+#sobre{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    color: #5f5f5f;
+    margin:  0px 0px;
+    padding: 10% 0px 10% 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F39DBB;
+}
+article{
+    display: flex;
+    gap: 2px;
+} 
+.paragrafo{
+    align-self: center;
+    justify-self: start;
+}
+#img-alimentos{
+    margin: 10px;
 }
