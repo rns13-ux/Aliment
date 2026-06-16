@@ -52,7 +52,10 @@ article{
 .paragrafo{
     align-self: center;
     justify-self: start;
+    text-align: justify;
+    font-size: medium;
 }
 #img-alimentos{
     margin: 10px;
+    max-width: 120px;
 }
