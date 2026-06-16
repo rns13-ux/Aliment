@@ -1,7 +1,7 @@
 /* topo */
 #topo{
     background-color: rgba(255, 255, 255, 0.79);
-    max-height: 40px;
+    max-height: 70px;
     display: flex;
     padding: 10px;
     justify-content: space-between;
@@ -54,8 +54,12 @@ article{
     justify-self: start;
     text-align: justify;
     font-size: medium;
+    padding: 0 10px 0 10px;
 }
 #img-alimentos{
     margin: 10px;
     max-width: 120px;
+}
+.p-separar{
+    padding: 10px;
 }
